@@ -3,3 +3,28 @@
 Titus Winters, Software Engineering at Google
 
 Os engenheiros de software têm uma visão mais ampla do projeto como um todo, quando comparamos com os programadores. Portanto o engenheiro de software necessita compreender muito bem as estruturas da programação, para sempre buscar o melhor caminho e 'guiar' o desenvolvimento do sistema da melhor forma possível, para que os melhores resultados sejam alcançados, apesar do engenheiro não codificar, pois essa não é sua tarefa e sim do programador.  
+
+##
+# Atividade  Ciclo da Vida
+##  modelo 
+##  Escola
+-professores: List(Professor)
+
+-cadastrarProfessor(Professor professor)
+
+-buscarProfessorPorEspecificacao(Especificacao espec): List(Professor)
+
+-buscarProfessorPorCPF(int cpf):Professor
+
+## Professor
+-cpf:  int
+
+-espec: Especificacao
+
++getCpf():  int
+
++setCpf(int novoCpf)
+
++getEspec():Especificacao
+
++setEspec(Especificacao novoCpf)
