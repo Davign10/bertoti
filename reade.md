@@ -6,25 +6,15 @@ Os engenheiros de software têm uma visão mais ampla do projeto como um todo, q
 
 ##
 # Atividade  Ciclo da Vida
-##  modelo 
-##  Escola
--professores: List(Professor)
 
--cadastrarProfessor(Professor professor)
+## Requisitos Funcionais:
+- Cadastrar Professor na Escola
+- Buscar Professor por CPF
+- Adicionar Professor a Turma
+- Remover Professor da Turma
 
--buscarProfessorPorEspecificacao(Especificacao espec): List(Professor)
+## Requisitos não Funcionais:
+- Usabilidade
+- Eficiência
+- Portabilidade
 
--buscarProfessorPorCPF(int cpf):Professor
-
-## Professor
--cpf:  int
-
--espec: Especificacao
-
-+getCpf():  int
-
-+setCpf(int novoCpf)
-
-+getEspec():Especificacao
-
-+setEspec(Especificacao novoCpf)
