@@ -5,7 +5,7 @@ Titus Winters, Software Engineering at Google
 Os engenheiros de software têm uma visão mais ampla do projeto como um todo, quando comparamos com os programadores. Portanto o engenheiro de software necessita compreender muito bem as estruturas da programação, para sempre buscar o melhor caminho e 'guiar' o desenvolvimento do sistema da melhor forma possível, para que os melhores resultados sejam alcançados, apesar do engenheiro não codificar, pois essa não é sua tarefa e sim do programador.  
 
 ##
-# Atividade  Ciclo da Vida
+# Ciclo de Vida do Desenvolvimento de Software
 
 ## Requisitos Funcionais:
 - Cadastrar Professor na Escola
@@ -20,6 +20,9 @@ Os engenheiros de software têm uma visão mais ampla do projeto como um todo, q
 
 ## Diagrama Casos de Uso
 ![image](https://user-images.githubusercontent.com/101421659/187308172-900debe6-9a12-404e-9c24-a5d4b250475c.png)
+
+## Sequência
+
 
 
 
