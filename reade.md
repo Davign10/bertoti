@@ -16,5 +16,8 @@ Os engenheiros de software têm uma visão mais ampla do projeto como um todo, q
 ## Requisitos não Funcionais:
 - Usabilidade
 - Eficiência
-- Portabilidade
+- Portabilidade 
+
+![image](https://user-images.githubusercontent.com/101421659/187308172-900debe6-9a12-404e-9c24-a5d4b250475c.png)
+
 
