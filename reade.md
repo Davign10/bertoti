@@ -24,6 +24,7 @@ Os engenheiros de software têm uma visão mais ampla do projeto como um todo, q
 ## Sequência
 ![image](https://user-images.githubusercontent.com/101421659/188519208-ff7d9af3-1d19-4cf9-be73-1ce55c937b64.png)
 
+## Diagrama de Classes UML
 
 
 
