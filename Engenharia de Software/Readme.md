@@ -5,26 +5,28 @@ Titus Winters, Software Engineering at Google
 Os engenheiros de software têm uma visão mais ampla do projeto como um todo, quando comparamos com os programadores. Portanto o engenheiro de software necessita compreender muito bem as estruturas da programação, para sempre buscar o melhor caminho e 'guiar' o desenvolvimento do sistema da melhor forma possível, para que os melhores resultados sejam alcançados, apesar do engenheiro não codificar, pois essa não é sua tarefa e sim do programador.  
 
 ##
-# Ciclo de Vida do Desenvolvimento de Software
+# CICLO DE VIDA DO DESENVOLVIMENTO DO SOFTWARE
+## REQUISITOS FUNCIONAIS:
+- CADASTRAR PROFESSOR 
+- CADASTRAR ALUNO 
+- CADASTRAR CURSO
+- CADASTRAR DISCIPLINA
+- CADASTRAR TURMA
 
-## Requisitos Funcionais:
-- Cadastrar Professor na Escola
-- Buscar Professor por CPF
-- Adicionar Professor a Turma
-- Remover Professor da Turma
 
-## Requisitos não Funcionais:
-- Usabilidade
-- Eficiência
-- Portabilidade 
+## REQUISTIOS NÃO FUNCIONAIS:
+- USABILIDADE
+- EFICIÊNCIA
+- PORTABILIDADE
 
-## Diagrama Casos de Uso
-![image](https://user-images.githubusercontent.com/101421659/187308172-900debe6-9a12-404e-9c24-a5d4b250475c.png)
+## DIAGRAMA CASOS DE USO
+![DIAGRAMA CASOS DE USO](https://user-images.githubusercontent.com/101421659/197374393-a7cf9472-1c7c-426d-9589-7c1ad931e52a.PNG)
 
-## Sequência
-![image](https://user-images.githubusercontent.com/101421659/188519208-ff7d9af3-1d19-4cf9-be73-1ce55c937b64.png)
 
-## Diagrama de Classes UML
+## SEQUÊNCIA
+
+
+## DIAGRAMA DE CLASSES UML
 
 
 
