@@ -20,11 +20,10 @@ Os engenheiros de software têm uma visão mais ampla do projeto como um todo, q
 - PORTABILIDADE
 
 ## DIAGRAMA CASOS DE USO
-![DIAGRAMA CASOS DE USO](https://user-images.githubusercontent.com/101421659/197374393-a7cf9472-1c7c-426d-9589-7c1ad931e52a.PNG)
-
+![DIAGRAMA CASOS DE USO](https://user-images.githubusercontent.com/101421659/197584973-c3822388-876f-47ea-95ad-8bee4b4ff503.PNG)
 
 ## SEQUÊNCIA
-
+![image](https://user-images.githubusercontent.com/101421659/197584298-77e9d498-ca0f-4659-ad0d-d714df345980.png)
 
 ## DIAGRAMA DE CLASSES UML
 
