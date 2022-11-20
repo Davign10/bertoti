@@ -50,10 +50,10 @@ public class Especificacao {
         if (nome.equals(especificacao.nome) &&
                 sexo.equals(especificacao.sexo) &&
                 data_nascimento.equals(especificacao.data_nascimento) &&
-                email.equals(especificacao.email)) {
+                email.equals(especificacao.email)){
             return true;
         } else {
-           return false;
+            return false;
         }
     }
 }
