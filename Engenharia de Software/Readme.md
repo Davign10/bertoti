@@ -7,10 +7,11 @@ Os engenheiros de software têm uma visão mais ampla do projeto como um todo, q
 ##
 # CICLO DE VIDA DO DESENVOLVIMENTO DO SOFTWARE
 ## REQUISITOS FUNCIONAIS:
-- CADASTRAR CELULAR
-- BUSCAR CELULAR
+
 - CADASTRAR CLIENTE
-- BUSCAR CLIENTE
+- BUSCAR CLIENTE PELO CPF
+- BUSCAR CLIENTE POR ESPECIFICAÇÃO
+
 
 ## REQUISTIOS NÃO FUNCIONAIS:
 - USABILIDADE
@@ -18,12 +19,12 @@ Os engenheiros de software têm uma visão mais ampla do projeto como um todo, q
 
 
 ## DIAGRAMA CASOS DE USO
-
-
-## SEQUÊNCIA
+![Casos de Uso - bertoti](https://user-images.githubusercontent.com/101421659/204017856-1ea1c3cc-25c7-41ec-9e3c-1fe35b3ae93b.PNG)
 
 
 ## DIAGRAMA DE CLASSES UML
+![Diagrama de classes - bertoti](https://user-images.githubusercontent.com/101421659/204015844-f219a196-17f6-463a-a83a-9e7b5ec51407.PNG)
+
 
 
 
