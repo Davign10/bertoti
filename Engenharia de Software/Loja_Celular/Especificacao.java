@@ -4,10 +4,10 @@ public class Especificacao {
 
     private String nome;
     private String sexo;
-    private Date data_nascimento;
+    private String data_nascimento;
     private String email;
 
-    public Especificacao(String nome, String sexo, Date data_nascimento, String email) {
+    public Especificacao(String nome, String sexo, String data_nascimento, String email) {
         this.nome = nome;
         this.sexo = sexo;
         this.data_nascimento = data_nascimento;
@@ -30,11 +30,11 @@ public class Especificacao {
         this.sexo = sexo;
     }
 
-    public Date getData_nascimento() {
+    public String getData_nascimento() {
         return data_nascimento;
     }
 
-    public void setData_nascimento(Date data_nascimento) {
+    public void setData_nascimento(String data_nascimento) {
         this.data_nascimento = data_nascimento;
     }
 
