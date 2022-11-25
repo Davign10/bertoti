@@ -1,17 +1,24 @@
 public class Cliente {
 
+    static Object getCliente(){
+        return null;
+    }
+
     private String cpf;
     private Especificacao espec;
     private Endereco endereco;
     private Compra compra;
     private Celular celular;
 
-    public Cliente(String cpf, Especificacao espec, Endereco endereco, Compra compra, Celular celular) {
+
+    protected Cliente(String cpf, Especificacao espec, Endereco endereco, Compra compra, Celular celular){
+        super();
         this.cpf = cpf;
         this.espec = espec;
         this.endereco = endereco;
         this.compra = compra;
         this.celular = celular;
+
     }
 
     public String getCpf() {

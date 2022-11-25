@@ -7,7 +7,9 @@ public class Especificacao {
     private String data_nascimento;
     private String email;
 
+
     public Especificacao(String nome, String sexo, String data_nascimento, String email) {
+        super();
         this.nome = nome;
         this.sexo = sexo;
         this.data_nascimento = data_nascimento;

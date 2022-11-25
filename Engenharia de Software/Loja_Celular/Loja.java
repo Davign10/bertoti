@@ -3,11 +3,11 @@ import java.util.List;
 
 public class Loja  {
 
+
     private List<Cliente> clientes = new LinkedList<Cliente>();
 
-    public List<Cliente> cadastrarCliente(Cliente cliente){
+    public void cadastrarCliente(Cliente cliente){
         clientes.add(cliente);
-        return clientes;
     }
 
     public List<Cliente> buscarClientePorEspecificacao(Especificacao espec){
@@ -25,5 +25,9 @@ public class Loja  {
             }
         }
         return null;
+    }
+
+    public List<Cliente> getClientes() {
+        return this.clientes;
     }
 }

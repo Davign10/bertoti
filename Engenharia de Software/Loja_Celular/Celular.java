@@ -1,5 +1,8 @@
 public class Celular {
 
+    static Object getCelular(){
+        return null;}
+
     private String idCelular;
 
     private String marca;
@@ -9,7 +12,8 @@ public class Celular {
     private String cor;
 
 
-    public Celular(String idCelular, String marca, String modelo, String cor) {
+    protected Celular(String idCelular, String marca, String modelo, String cor) {
+        super();
         this.idCelular = idCelular;
         this.marca = marca;
         this.modelo = modelo;

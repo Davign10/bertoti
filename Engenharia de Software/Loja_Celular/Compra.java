@@ -1,11 +1,12 @@
 public class Compra {
 
-    private String idCompra;
+    protected String idCompra;
 
-    private String preco;
+    protected String preco;
 
 
     public Compra(String idCompra, String preco) {
+        super();
         this.idCompra = idCompra;
         this.preco = preco;
 
