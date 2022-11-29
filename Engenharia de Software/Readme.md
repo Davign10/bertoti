@@ -19,11 +19,18 @@ Os engenheiros de software têm uma visão mais ampla do projeto como um todo, q
 
 
 ## DIAGRAMA CASOS DE USO
-![Casos de Uso - bertoti](https://user-images.githubusercontent.com/101421659/204017856-1ea1c3cc-25c7-41ec-9e3c-1fe35b3ae93b.PNG)
+![Casos de Uso - bertoti](https://user-images.githubusercontent.com/101421659/204426461-1802785d-fd96-4e30-84e4-4f90ed3349f5.PNG)
 
 
 ## DIAGRAMA DE CLASSES UML
-![Diagrama de classes - bertoti](https://user-images.githubusercontent.com/101421659/204015844-f219a196-17f6-463a-a83a-9e7b5ec51407.PNG)
+![Diagrama de classes - bertoti](https://user-images.githubusercontent.com/101421659/204424542-54afb3e7-09c1-42f7-abe0-74cbfd899d02.PNG)
+
+## DIAGRAMA DE SEQUÊNCIA
+![SEQUÊNCIA](https://user-images.githubusercontent.com/101421659/204429246-43df1e50-4dca-43c9-9c09-6e59b95944b6.PNG)
+
+
+
+
 
 
 
