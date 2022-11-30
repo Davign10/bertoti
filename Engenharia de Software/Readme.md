@@ -28,6 +28,38 @@ Os engenheiros de software têm uma visão mais ampla do projeto como um todo, q
 ## DIAGRAMA DE SEQUÊNCIA
 ![SEQUÊNCIA](https://user-images.githubusercontent.com/101421659/204429246-43df1e50-4dca-43c9-9c09-6e59b95944b6.PNG)
 
+## CLASSE CELULAR + CÓDIGO
+![Classe Celular + código](https://user-images.githubusercontent.com/101421659/204837119-8af0bf3e-79ca-4f2e-b110-78e04837e04a.PNG)
+
+
+## CLASSE CLIENTE + CÓDIGO
+![Classe Cliente + Código](https://user-images.githubusercontent.com/101421659/204837174-04369ad9-c7c2-4ba2-94b8-dde7cedcf04f.PNG)
+
+
+## CLASSE COMPRA + CÓDIGO
+![Classe Compra + Código](https://user-images.githubusercontent.com/101421659/204843954-ab5376ff-461e-4534-9bb1-5ab1000ec503.PNG)
+
+
+## CLASSE ENDEREÇO + CÓDIGO
+![Classe Endereco + Código](https://user-images.githubusercontent.com/101421659/204845254-cba7f3b2-8e99-4c91-929e-d019c6884d45.PNG)
+
+
+## CLASSE ESPECIFICAÇÃO + CÓDIGO
+![Classe Especificacao + Código](https://user-images.githubusercontent.com/101421659/204846418-c62da54c-b875-491b-a3e7-980a6a2df06f.PNG)
+
+
+## CLASSE LOJA + CÓDIGO
+![Classe Loja + Código](https://user-images.githubusercontent.com/101421659/204847299-528bf6db-d787-4b40-bf58-4b32516731a7.PNG)
+
+
+
+
+
+
+
+
+
+
 
 
 
