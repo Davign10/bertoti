@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>Busca por Placa</title>
+    <title>Busca por Codigo</title>
 	
     
 	<script src="js/jquery.js"></script>
@@ -17,12 +17,12 @@
 
 			$("#busca").click(function() {
 
-				var placa = $("#placa").val();
+				var codigo = $("#codigo").val();
 				
 					
-				$("#dadosCarro").empty();
+				$("#dadosCelular").empty();
 					
-				var url = "/carro/"+placa;
+				var url = "/celular/"+codigo;
 				
 					
 
@@ -32,11 +32,11 @@
 						
 						
 						
-						itens.push("<tr> <td>"+ data.placa +"</td><td>"+ data.espc.modelo + "</td><td>"+ data.espc.marca + "</td><td>"+ data.espc.cor + "</td></tr>");
+						itens.push("<tr> <td>"+ data.codigo +"</td><td>"+ data.espc.marca + "</td><td>"+ data.espc.modelo + "</td><td>"+ data.espc.cor + "</td></tr>");
 							
 						
 									
-						$("#dadosCarro").append(itens);
+						$("#dadosCelular").append(itens);
 						
 				});
 
@@ -57,22 +57,22 @@
             
 		
 		
-        <input id="placa" class="form-control col-md-offset-5" type="text" placeholder="Default input">
+        <input id="codigo" class="form-control col-md-offset-5" type="text" placeholder="Default input">
 		
 		<button id="busca" class="btn btn-success col-md-offset-5">Buscar</button>
 		
 		<table class="table table-bordered"> 
-			<caption>Carros</caption>
+			<caption>Celulares</caption>
 				<thead>
 					<tr> 
-						<th>Placa</th>
-						<th>Modelo</th> 
+						<th>Codigo</th>
 						<th>Marca</th> 
+						<th>Modelo</th> 
 						<th>Cor</th> 
 					</tr> 
 				</thead> 
 				
-				<tbody id="dadosCarro"> 
+				<tbody id="dadosCelular"> 
 					
 				</tbody> 
 		</table>
