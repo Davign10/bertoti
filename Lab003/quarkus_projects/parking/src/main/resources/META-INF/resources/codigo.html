@@ -1,62 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <title>Busca por Codigo</title>
-	
-    
-	<script src="js/jquery.js"></script>
-	
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Por Codigo</title>
 
+    <script src="js/jquery.js"></script>
 	<link href="css/bootstrap.min.css" rel=stylesheet>
 	
 	
 	<script>
 		$(document).ready(function(){
 			
-
 			$("#busca").click(function() {
 
 				var codigo = $("#codigo").val();
 				
-					
 				$("#dadosCelular").empty();
 					
 				var url = "/celular/"+codigo;
 				
-					
-
 				$.getJSON(url, function(data) {
 						
-						var itens = [];
+					var itens = [];
 						
-						
-						
-						itens.push("<tr> <td>"+ data.codigo +"</td><td>"+ data.espc.marca + "</td><td>"+ data.espc.modelo + "</td><td>"+ data.espc.cor + "</td></tr>");
-							
-						
+					itens.push("<tr> <td>"+ data.codigo +"</td><td>"+ data.espc.marca + "</td><td>"+ data.espc.modelo + "</td><td>"+ data.espc.cor + "</td></tr>");
 									
-						$("#dadosCelular").append(itens);
+					$("#dadosCelular").append(itens);
 						
 				});
-
 			});
-
 		});
-
 	</script>
-
-   
-  </head>
-
-
-  <body>
-		
-
-  		<div id="painelBusca">
+</head>
+<body>
+    <div id="painelBusca">
             
-		
-		
         <input id="codigo" class="form-control col-md-offset-5" type="text" placeholder="Default input">
 		
 		<button id="busca" class="btn btn-success col-md-offset-5">Buscar</button>
@@ -72,12 +52,9 @@
 					</tr> 
 				</thead> 
 				
-				<tbody id="dadosCelular"> 
+			<tbody id="dadosCelular"> 
 					
-				</tbody> 
+			</tbody> 
 		</table>
-
-		
-  </body>
-  
+</body>
 </html>

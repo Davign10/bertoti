@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estoque</title>
-	
-    
-	<script src="js/jquery.js"></script>
-	
 
-	<link href="css/bootstrap.min.css" rel=stylesheet>
+    <script src="js/jquery.js"></script>
+	<link href="css/style.css" rel=stylesheet>
 	
 	
 	<script>
 		$(document).ready(function(){
 			
-
 			$("#busca").click(function() {
 
-				
 				var marca = $( "#marca option:selected" ).text();
 				var modelo = $( "#modelo option:selected" ).text();
 				var cor = $( "#cor option:selected" ).text();
@@ -26,94 +23,104 @@
 					
 				var url = "/celular/"+marca+"/"+modelo+"/"+cor+"";
 					
-
 				$.getJSON(url, function(data) {
 						
-						var itens = [];
+					var itens = [];
 						
-						$.each(data, function(i){
+					$.each(data, function(i){
 						
-							itens.push("<tr> <td>"+ this.codigo +"</td><td>"+ this.espc.marca + "</td><td>"+ this.espc.modelo + "</td><td>"+ this.espc.cor + "</td></tr>");
+						itens.push("<tr> <td>"+ this.codigo +"</td><td>"+ this.espc.marca + "</td><td>"+ this.espc.modelo + "</td><td>"+ this.espc.cor + "</td></tr>");
 							
-						});
+					});
 									
-						$("#dadosCelular").append(itens);
+					$("#dadosCelular").append(itens);
 						
 				});
-
 			});
-
 		});
-
 	</script>
 
+</head>
+<body>
+
    
-  </head>
 
+		<div class="titulo">
+			<span style="--i:1">C</span>
+			<span style="--i:2">o</span>
+			<span style="--i:3">n</span>
+			<span style="--i:4">t</span>
+			<span style="--i:5">r</span>
+			<span style="--i:6">o</span>
+			<span style="--i:7">l</span>
+			<span class="espacamento" style="--i:8">e</span>
 
-  <body>
-		
+			<span style="--i:10">d</span>
+			<span class="espacamento" style="--i:11">e</span>
 
-  		<div id="painelBusca">
-            
-		
-		
-            <div class="form-group col-md-4">
-                <label>Marca</label>
-                <select id="marca" class="input-large form-control">
-                    <option value="" selected="selected">Escolha a marca</option>
-                    <option value="Samsung">Samsung</option>
-                    <option value="iPhone">iPhone</option>
-                    <option value="Xiaomi">Xiaomi</option>
-                    
-                </select>
-            </div>
-            
-            
-            <div class="form-group col-md-4">
-                <label>Modelo</label>
-                <select id="modelo" class="input-large form-control">
-                    <option value="" selected="selected">Escolha o modelo</option>
-                    <option value="Samsung Galaxy S20 FE">Samsung Galaxy S20 FE</option>
-                    <option value="iPhone 13">iPhone 13</option>
-                    <option value="Redmi Note 11">Redmi Note 11</option>
-                    
-                </select>
-            </div>
-		
-		
-            <div class="form-group col-md-4">
-                <label>Cor</label>
-                <select id="cor" class="input-large form-control">
-                    <option value="" selected="selected">Escolha a cor</option>
-                    <option value="Preto">Preto</option>
-                    <option value="Branco">Branco</option>
-                    <option value="Azul">Azul</option>
-                    
-                </select>
-            </div>
-		
+			<span style="--i:13">e</span>
+			<span style="--i:14">s</span>
+			<span style="--i:15">t</span>
+			<span style="--i:16">o</span>
+			<span style="--i:17">q</span>
+			<span style="--i:18">u</span>
+			<span style="--i:19">e</span>
 		</div>
-		
-		<button id="busca" class="btn btn-primary col-md-offset-5">Buscar</button>
-		
-		<table class="table table-bordered"> 
-			<caption>Celulares</caption>
-				<thead>
-					<tr> 
-						<th>Codigo</th>
-						<th>Marca</th> 
-						<th>Modelo</th> 
-						<th>Cor</th> 
-					</tr> 
-				</thead> 
-				
-				<tbody id="dadosCelular"> 
-					
-				</tbody> 
-		</table>
 
-		
-  </body>
-  
+        <div class="container">
+
+		<div class="select-wrapper">
+            
+        <div class="form-group col-md-4">
+            <label>Marca</label>
+            <select id="marca" class="input-large form-control">
+                <option value="" selected="selected">Escolha a marca</option>
+                <option value="Samsung">Samsung</option>
+                <option value="iPhone">iPhone</option>
+                <option value="Xiaomi">Xiaomi</option>
+            </select>
+        </div>
+        
+        <div class="form-group col-md-4">
+            <label>Modelo</label>
+            <select id="modelo" class="input-large form-control">
+                <option value="" selected="selected">Escolha o modelo</option>
+                <option value="Samsung Galaxy S20 FE">Samsung Galaxy S20 FE</option>
+                <option value="iPhone 13">iPhone 13</option>
+                <option value="Redmi Note 11">Redmi Note 11</option>
+            </select>
+        </div>
+    
+        <div class="form-group col-md-4">
+            <label>Cor</label>
+            <select id="cor" class="input-large form-control">
+                <option value="" selected="selected">Escolha a cor</option>
+                <option value="Preto">Preto</option>
+                <option value="Branco">Branco</option>
+                <option value="Azul">Azul</option>
+            </select>
+        </div>
+
+        <div>
+        <button id="busca" type="button" class="btn btn-primary">Buscar</button>
+        </div>
+    </div>
+
+    <table class="tabela"> 
+            <thead>
+                <tr> 
+                    <th>Código</th>
+                    <th>Marca</th> 
+                    <th>Modelo</th> 
+                    <th>Cor</th> 
+                </tr> 
+            </thead> 
+            
+            <tbody id="dadosCelular"> 
+            </tbody> 
+    </table>
+
+</div>
+
+</body>
 </html>
