@@ -1,8 +1,9 @@
 package antipattern;
 
-public class Aviao extends Veiculo {
-
+public class Helicoptero extends Veiculo {
+	
 	public void locomover() {
 
 	}
+
 }
