@@ -9,7 +9,11 @@ A aplicação tem como destaque a integração entre o histórico do desempenho 
 
 ### Contribuições Pessoais
 
+Nesse projeto desempenhei o papel de Product Owner, buscando entender as regras do negócio, levantando os requisitos para construção do backlog do produto, também realizei o fluxo de jornada do usuário, critérios de aceitação e a prototipação dos wireframes. Além disso, contribuí no desenvolvimento do front-end da aplicação. 
+
 ### Lições Aprendidas 
+
+
 
 ### Tecnologias Utilizadas
 
@@ -17,15 +21,15 @@ A aplicação tem como destaque a integração entre o histórico do desempenho 
 
 <summary> Visualizar Tecnologias </summary>
  
-- Slack
-- Figma
-- Java
-- MySql
-- Spring Boot
-- JavaScript
-- CSS
-- HTML
-- Bootstrap
+- #### Slack
+- #### Figma
+- #### Java
+- #### MySql
+- #### Spring Boot
+- #### JavaScript
+- #### CSS
+- #### HTML
+- #### Bootstrap
   
 </details>
 
