@@ -52,19 +52,21 @@ Desenvolvimento das Telas:
 
 - Trabalhei em conjunto com os desenvolvedores para garantir a implementação dos designs, acompanhando o progresso e ajustando as especificações conforme necessário, assegurando que as telas desenvolvidas mantivessem a consistência com os wireframes, garantindo uma experiência do usuário coesa e intuitiva.
 
+Exemplo de código:
+
+![tabelaClientes](https://github.com/Davign10/bertoti/assets/101421659/b42d1e73-1b54-4052-af2a-4978cdcd97e9)
+
+É definida uma função assíncrona chamada CarregarCarteiraClientesAdminm, utlizando a biblioteca axios para fazer uma requisição HTTP GET para a URL http://localhost:8080/cliente, armazenando e extraindo os dados de um JSON na variável clientes. Após isso é realizado um select para a tabela, onde é pego o id do cliente e os demais dados atribuindo nas respetivas colunas. Em caso de erro durante a requisição ou processamento, a função trata o erro imprimindo-o no console. Por fim quando o documento HTML estiver completamente carregado é exibido os dados na tabela, assim que a página estiver pronta.
+
+Em resumo essa função em JavaScript, tem como objetivo carregar dados dos clientes e exibi-los em uma tabela HTML, para que o Administrador do sistema tenha acesso às informações dos clientes de forma clara e intuitiva.
+
 </details>
 
 ### Lições Aprendidas
 
-<details>
-
-<summary> Visualizar Lições Aprendidas </summary>
-
-<br>
-
 Esse foi o primeiro projeto que pude exercer a função de Product Owner, durante esse período responsável por desenvolver o backlog, wireframes, jornadas do usuário, assim como desenvolvedor front-end utilizando JavaScript, adquiri lições que contribuíram para meu crescimento. Dentre elas estão:
 
-Compreensão Profunda:
+Visão de Negócio:
 - Ao desenvolver jornadas do usuário e interagir diretamente na criação de wireframes, percebi a importância de uma compreensão profunda das necessidades e expectativas do cliente. Essa visão direta influenciou positivamente nas decisões de desenvolvimento, garantindo que as soluções entregues estivessem alinhadas às demandas reais.
 
 Agilidade:
@@ -73,23 +75,40 @@ Agilidade:
 Desenvolvimento:
 - Minha experiência como desenvolvedor front-end reforçou a importância da eficiência e performance no código. O uso eficaz de JavaScript para criar interfaces funcionais e simples para a usabilidade do usuário é crucial, essa busca contínua por melhores práticas e otimizações é uma parte integral do processo de desenvolvimento.
 
-</details>
+### Hard Skills e Soft Skills
 
-### Hard Skills
-
-<details>
-
-<summary> Visualizar Hard Skills </summary>
-
-</details>
-
-### Soft Skills
-
-<details>
-
-<summary> Visualizar Soft Skills </summary>
-
-</details>
+<table>
+      <thead>
+        <th>Hard Skills</th>
+        <th>Soft Skills</th>
+      </thead>
+      <tbody>
+        <tr>
+         <td>Product Owner</td>
+         <td>Proatividade</td>
+        </tr>
+        <tr>
+         <td>Java</td>
+         <td>Comunicação</td>
+        </tr>
+        <tr>
+         <td>JavaScript</td>
+         <td>Planejamento</td>
+        </tr>
+        <tr>
+         <td>HTML</td>
+         <td>Criatividade</td>
+        </tr>
+         <tr>
+         <td>CSS</td>
+         <td>Flexibilidade</td>
+        </tr>
+        <tr>
+         <td>Canva</td>
+         <td>Responsabilidade</td>
+        </tr>
+      </tbody>
+</table>
 
 ### Tecnologias Utilizadas
 
